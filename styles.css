@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Outfit:wght@100..900&family=Schoolbell&display=swap');
+
+:root {
+    --cor-fundo:#030116 ;
+    --cor-fundo-secundaria:#0A0E23;
+    --cor-fonte:#ffffff;
+    --cor-fonte-secundaria:#FF5722;
+    --cor-botao:#3F51B5;
+
+    --fonte-principal:'Outfit';
+    --fonte-titulo:'Architects Daughter';
+    --fonte-subtitulo:'schoolbell';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-fonte);
+}
+
+.inicio {
+    padding: 5% 5% 11% 5%;
+}
+
+.titulo__principal {
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    font-size: 280%;
+    margin:10% 0 0 0;
+}
+
+.subtitulo {
+    font-family: var(--fonte-subtitulo);
+    text-align: center;
+    font-size: 190%;
+    margin: 0 0 3% 0;
+}
+
+.lista {
+    text-align: center;
+    font-family: var(--fonte-principal);
+    list-style-type: none;
+}
+
+.botao__download {
+    text-decoration: none;
+    color: var(--cor-fonte);
+    background-color: var(--cor-botao);
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    /* margin: 10%; */
+    background-color: var(--cor-fundo-secundaria);
+    padding: 8% 10%;
+}
+
+.titulo__apresentacao {
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    color: var(--cor-fonte-secundaria);
+    font-size: 180%;
+}
+
+.texto__apresentacao {
+    text-align: center;
+    font-family: var(--fonte-principal);
+    margin: 0 20%;
+    font-size: 140%;
+}
+
+.img__lucas {
+    width:25% ;
+    margin: 0 200px 0 0;
+}
+
+.skills {
+    text-align: center;
+    margin: 6% 0 8% 0;
+}
+
+.titulo__skills {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-fonte-secundaria);
+    font-size: 180%;
+}
+
+.tecnologias {
+    width: 18%;
+    margin: 4% 0 0 0;
+}
+
+.projetos {
+    margin: 15% 0 0 0;
+    padding: 5%;
+    background-color: var(--cor-fundo-secundaria);
+}
+
+.titulo__projetos {
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    color: var(--cor-fonte-secundaria);
+    font-size: 180%;
+    margin: 0 0 4% 0;
+}
+
+.lista__projetos {
+    display: flex;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    list-style-type: none;
+}
+
+.titulo__item {
+    margin: 0 0 2% 0;
+}
+
+.img__psyque{
+    width: 65%;
+}
+
+.img__aluraplus {
+    width: 80%;
+}
+
+.img__criative {
+    width: 80%;
+}
+
+.img_style {
+    border-radius: 10px;
+}
+
+.texto__projetos {
+    margin: 0 10%;
+}
+
+.link__projeto {
+    text-decoration: none;
+    color: var(--cor-botao);
+    font-family: var(--fonte-subtitulo); 
+}
+
+.rodape {
+    padding: 5% 5% 2% 5%;
+    text-align: center;
+}
+
+.lista__icone {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.icone {
+    margin: 0 5% 5% 5%;
+}
+
+.img__icone {
+    width: 140%
+}
+
+.texto__rodape {
+    text-align: center;
+    font-family: var(--fonte-principal);
+}
+
+@media screen and (max-width: 1050px) {
+   
+    .texto__apresentacao {
+        margin: 0;
+    }
+
+    .img__lucas {
+        margin: 0 0 0 5%;
+    }
+}
+
+@media screen and (max-width: 765px) {
+
+    .lista__projetos {
+        display: block;
+    }   
+    
+    .item__projeto {
+        margin: 10% 0;
+    }
+
+    .img__criative {
+    width: 50vw;
+    }
+
+    .img__psyque {
+        width: 50vw;
+    }
+
+    .img__aluraplus {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 765px) {
+
+    .apresentacao {
+        display: block;
+        text-align: center;
+
+    }
+
+    .img__lucas {
+       margin: 8% 0 0 0;
+    }
+
+    .tecnologias {
+        width: 50vw;
+    }
+
+}
+
+@media screen and (max-width: 765px) {
+
+    .apresentacao {
+        display: block;
+        text-align: center;
+
+    }
+
+    .img__lucas {
+        margin: 8% 0 0 0;
+        width: 50vw;
+     }
+
+    
+     .img__criative {
+        width: 50vw;
+        }
+    
+        .img__psyque {
+            width: 50vw;
+        }
+    
+        .img__aluraplus {
+            width: 50vw;
+        }
+
+        .tecnologias {
+            width: 50vw;
+        }
+
+}
